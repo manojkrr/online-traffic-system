@@ -1,34 +1,31 @@
-# Tax Collection System
-This is a web application that manages tax reports. Users can view, create, update, and delete tax reports.
+# Online Traffic System
+This Spring Boot application is designed to simulate an online traffic system, with MySQL as the database management system.
 
-## Getting Started
-These instructions will help you run this application on your local machine for development and testing purposes.
+## Prerequisites:
 
-## Prerequisites
-To run this application, you need to have the following software installed on your machine:
-1. Java 8 or later
-2. Maven 3.6.3 or later
-3. MySQL 5.7 or later
-## Installing
+1. JDK 11 or later installed
+2. Maven 3.0 or later installed
+3. MySQL 5.6 or later installed
+
+## Setup:
 1. Clone this repository to your local machine.
-2. Navigate to the project directory in your terminal.
-3. Run mvn package to build the project and create a JAR file.
-4. Install and set up a MySQL database. 
-5. Run java -jar target/tax-collection-system-0.0.1-SNAPSHOT.jar to start the application.
+2. Create a MySQL database using the provided SQL script in the database directory.
+3. Configure the database connection by editing the application.properties file in the src/main/resources directory.
+4. Build the application by running mvn package in the project directory.
+5. Run the application using java -jar target/online-traffic-system-0.0.1-SNAPSHOT.jar
 
-## Usage
-1. Open a web browser and go to http://localhost:8080/ to access the home page of the application.
-2. Click on the Reports link in the navigation bar to view a list of all tax reports.
-3. Click on the Add Report button to create a new tax report.
-4. Click on the Edit button next to a report to update it.
-5. Click on the Delete button next to a report to delete it. 
+## Usage:
+Open a web browser and navigate to http://localhost:8080.
+1. The homepage will display a form to search for a vehicle by license plate number.
+2. Enter a license plate number and click "Search".
+3. If the vehicle is registered in the database, its information will be displayed.
+4. If the vehicle is not registered, an error message will be displayed.
+5. To register a new vehicle, click "Register Vehicle" on the homepage.
+6. Enter the vehicle's information in the form and click "Submit".
+7. The new vehicle will be added to the database and a success message will be displayed.
+8. To view a list of all registered vehicles, click "View All Vehicles" on the homepage.
+9. A table displaying all registered vehicles will be displayed.
 
-## Built With
-1. Spring Boot - The web framework used
-2. MySQL - The database management system used
-3. Maven - Dependency Management
 
-## Authors
-1. Manoj Kumar
-2. Pooja Panirwala
-3. Sumit Bopche
+
+

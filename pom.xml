@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.toll</groupId>
-    <artifactId>tax-collection-system</artifactId>
+    <artifactId>online-traffic-system</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>tax-collection-system</name>
-    <description>tax-collection-system</description>
+    <name>online-traffic-system</name>
+    <description>online-traffic-system</description>
     <properties>
         <java.version>17</java.version>
         <junit.version>4.13.2</junit.version>

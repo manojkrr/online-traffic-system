@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/style/styles.css">
     <style>
         .container {
-            background-image: url("TaxRegister.jpeg");
+            background-image: url("Login.jpeg");
         }
     </style>
 </head>
