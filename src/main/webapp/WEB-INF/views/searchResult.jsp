@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +15,7 @@
 <div style="background: black;padding: 30px;opacity: 1 !important;">
     <h1>Online Traffic System - Search Result</h1>
     <p><a href="/dashboard">Back To Dashboard</a></p>
-    <table>
+    <table border="1" cellpadding="5" cellspacing="5" style="color: white">
         <tr>
             <th>License Plate</th>
             <th>Make</th>

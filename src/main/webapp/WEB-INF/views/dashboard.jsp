@@ -14,9 +14,8 @@
 <div style="background: black;padding: 30px;opacity: 1 !important;">
     <h1>Welcome to the Online Traffic System</h1>
     <p>Click <a href="/vehicle">here</a> to search for a vehicle.</p>
-    <p>Click <a href="/vehicle/all">here</a> to see all vehicles Registered.</p>
-    <p><a href="/vehicle/all">here</a> to see all vehicles Registered.</p>
-    <p>Click <a href="/vehicle/all">here</a> to see all vehicles Registered.</p>
+    <p><a href="/vehicle/all">hereAll vehicles Registered.</a></p>
+    <p><a href="/vehicle/register">Register a Vehicle</a></p>
     <p><a href="/">Logout</a></p>
 </div>
 </body>

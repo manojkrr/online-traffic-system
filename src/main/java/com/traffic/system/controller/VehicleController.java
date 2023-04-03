@@ -45,7 +45,7 @@ public class VehicleController {
     public String registerVehicle(@ModelAttribute("vehicle") Vehicle vehicle, Model model) {
         vehicleService.saveVehicle(vehicle);
         model.addAttribute("success", "Vehicle registered successfully.");
-        return "register";
+        return "vehicleRegister";
     }
 
     @GetMapping("/all")
